@@ -1,9 +1,9 @@
 sudo apt-get update
 
-sudo apt-get install xrdp
-
-
 sudo apt-get -y install xrdp
+
+sudo apt-get install xfce4
+
 
 sudo nano /etc/xrdp/xrdp.ini
 
@@ -22,7 +22,6 @@ return polkit.Result.YES;
 قم بعمل ريستارت
 sudo /etc/init.d/xrdp restart
 
-sudo apt-get install xfce4
 
 للدخول عبر سطح مكتب بعيد
 root
