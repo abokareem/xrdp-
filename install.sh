@@ -1,8 +1,18 @@
-sudo apt-get update
+sudo apt update
+sudo apt install xfce4 xfce4-goodies xorg dbus-x11 x11-xserver-utils
+sudo apt install xrdp
 
-sudo apt-get -y install xrdp
+ضف فى هذا المسار
+/etc/xrdp/xrdp.ini
+هذا السطر
+exec startxfce4 
 
-sudo apt-get install xfce4
+احفظ وطبق هذا الامر
+sudo systemctl restart xrdp
+
+
+
+
 
 
 sudo nano /etc/xrdp/xrdp.ini
