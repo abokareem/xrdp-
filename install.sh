@@ -27,3 +27,6 @@ sudo apt-get install xfce4
 للدخول عبر سطح مكتب بعيد
 root
 password server
+
+شرح
+http://c-nergy.be/blog/?p=9285
